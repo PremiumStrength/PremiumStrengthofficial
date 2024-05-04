@@ -1,0 +1,152 @@
+.logo {
+    height: 99px;
+    width: 177px;
+}
+.navbar {
+    background-color:rgb(133, 8, 8);  
+}
+.nav-item {
+    font-size: 18px;
+    margin: 13px;
+    font-family:sans-serif;
+}
+.nav-item a:hover{
+    background-color: rgb(144, 187, 243);
+}
+.nav-item a{
+    border-radius: 30px;
+    transition: 0.4s;
+    margin: 10px;
+}
+.navbar-toggler {
+    background-color: white;
+}
+.c-item {
+    height: 600px;
+}
+.c-img {
+    height: 68%;
+    object-fit: cover;
+    /* object-fit magiging maganda ung ratio ng picture*/
+    filter: brightness(0.6) ;
+}
+.carousel-caption {
+    padding-top:110px;
+}
+.frees {
+    font-size: clamp(35px, 4vw, 70px);
+}
+.best {
+    margin-top: -1px;
+    font-size: 21px;
+}
+#intro {
+    margin-top: -120px;
+    font-size: 18px;
+}
+#before {
+    margin-top: 45px;
+    font-size: 20px;
+}
+.btn {
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+.btn:hover {
+    background-color: rgb(133, 8, 8);
+}
+.header-container {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.benefits-container {
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgb(243, 142, 142), rgb(131, 0, 0));
+    border-radius: 50px;
+}
+.benefits-grid-item {
+    background-color: #ffffff;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 3px 9px;
+    text-align: center;
+}
+.grid-item img {
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+.grid-item p {
+    padding: 15px;
+}
+.hirap-1 {
+    margin-left: 7.5px;
+}
+.include-container {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 100px;
+    background-image: linear-gradient(#e9d8ff, #6B68E7);
+}
+.include-container p {
+    margin-bottom: 60px;
+}
+.freein-container p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.freein-container h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: white;
+    border: solid black 3px;
+}
+.socialIcons a i{
+    font-size: 1.5em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover {
+    background-color: #dadada;
+    transition: 0.3s;
+}
+.socialIcons a i {
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+.privacy a{
+    color: black;
+    text-decoration: none;
+}
+.privacy {
+    text-align: center;
+}
+.footerBottom {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    font-family: arial;
+}

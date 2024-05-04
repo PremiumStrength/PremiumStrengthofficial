@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Strength | Your Gym Buddy</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="index.css">
+    <a href="facilities.html"></a>
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"> 
+            <img class="logo" src="logo.png"> </a>
+
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tips.html">Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="facilities.html">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="whyjoin.html">Why Join?</a>
+              </li>
+            </ul>
+
+          </div>       
+        </div>
+
+      </nav>
+      
+
+      <main>
+        <!-- para gumana tong joining dapat pumunta sa button class sa carousel -->
+        <!-- skip ko na to parang hindi nmn ntin to need sa website ntin -->
+        <!-- time 38:52-->
+        <section class="modal fade" tabindex="-1" id="joining-modal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Become a Member</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                  
+                    <form action="#">
+                        <!-- dapat nasa loob ng row ang col-6 -->
+                        <!-- gutter? pagitan -->
+                        <div class="row g-2">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input id="email1" type="email" class="form-control" placeholder="Email address">
+                                    <label for="email1">Email address</label>
+                                </div>
+                            </div>
+    
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <select id="select1" class="form-select">
+                                        <option> 1 Day for only P99.00</option>
+                                        <option> 1 Month for only P799.00</option>
+                                        <option> 3 Months for only P1,899.00</option>
+                                        <option> 6 Months for only P2,999.00</option>
+                                        <option> 1 Year for only P5,499.00</option>
+                                    </select>
+                                    <label for="email1">Select your plan</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal" href="ty">Checkout
+                  
+                  </button>
+                  
+                  
+              </div>
+              
+            </div>
+            
+          </section>
+          
+
+        <!--"id" should be the same to data-bs-target-->
+        <section id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- carousel-indicatros eto ung line sa text -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <!-- eto ung pictures-->
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <img src="BARBELL (1) - Copy.png" class="d-block w-100 c-img" alt="...">
+                <!-- eto ung caption sa bawat pics -->
+                <!-- yung top-0 here mapupunta ung captions sa top side ng pic -->
+                    <div class="carousel-caption top-0 mt-4"> 
+                        <p class="fs-3 mt-5 text-uppercase">Discipline is the key </p>
+                        <!-- yung fs-3 fontsize then ung mt-5 margintop, fw fontweight-->
+                        <h1 class="display-1-fw-bolder text-capitalize">Connect with us</h1>
+                        <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#joining-modal">Join Now
+                          
+                        </button>
+                        <!-- ps paddingstart, pe paddingend, px bothside, py vertical-->
+                    </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="rope.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption top-0 mt-4"> 
+                        <p class="fs-3 mt-5 text-uppercase">START YOUR FITNESS </p>
+                        <h1 class="display-1-fw-bolder text-capitalize">Connect with us</h1>
+                        <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#joining-modal">Join Now</button>
+                        </div>
+                        <!-- alisin ang may none or block -->
+              </div>
+              <div class="carousel-item c-item">
+                <img src="lalake.jpeg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption top-0 mt-4"> 
+                        <p class="fs-3 mt-5 text-uppercase">Give your best </p>
+                        <h1 class="display-1-fw-bolder text-capitalize">Connect with us</h1>
+                        <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#joining-modal">Join Now</button>
+                    </div>
+            </div>
+            <!-- should input c-item beside actice and c-img beside w-100 para
+                magkakapareho ung size ng mga pictures-->
+
+                <!-- eto ung pinipindot to swipe to left or to right -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+        </section>
+
+          <section class="overview">
+            <div class="container h-100 d-flex align-items-center">
+              <div class="row w-100 text-center fs-4">
+
+                  <div class="col-xxl">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Afordable Membership
+                  </div>
+                  <div class="col-xxl">
+                    <i class="bi bi-people-fill me-2"></i>
+                    Free 3 Sessions for New Members
+                  </div>
+                  <div class="col-xxl">
+                    <i class="bi bi-patch-check-fill"></i>
+                    As low as 5,499.00 Yearly
+                  </div>
+
+              </div>
+            </div>
+          </section>
+
+          <div class="box">
+          <div class="container pt-5" id="first">
+            <div class="row">
+                 
+                 <div class="col-xl-8" id="head">
+                  EXPERT PERSONAL TRAINING <br>
+                  <div class="sentence">
+                    <p>
+                      The Premium Strength has the best personal training program 
+                      providing valuable instruction on proper technique and form to prevent injury and maximize results during workouts.
+                      Beyond physical training, Premium Strength coaches often serve as mentors, offering encouragement and support to clients, both inside and outside the gym.
+                    </p>
+                  </div>
+                 </div>
+                 <div class="col-xl-4">
+                  <img src="coaching.jpg" class="coaching">
+               </div>
+            </div>
+          </div>
+
+
+          <div class="container pt-5">
+            <div class="row">
+                 
+                 <div class="col-xl-8" id="head2">
+                  ATMOSPHERE<br>
+                  <div class="sentence2">
+                    <p>
+                      The atmosphere in our gym is often characterized by a palpable sense 
+                      of energy and determination, as individuals work towards their fitness goals.
+                      Conversations among gym-goers, whether exchanging workout tips or sharing personal 
+                      achievements, create a supportive and motivating environment.
+                    </p>
+                  </div>
+                 </div>
+                  <div class="col-xl-4">
+                    <img src="friends.jpg" class="coaching">
+                </div>
+            </div>
+          </div>
+
+          <div class="container pt-5" id="map">
+            <div class="row">
+              <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.875021043784!2d121.02804847734207!3d14.606194596160952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b62bc9afda63%3A0x10e65b1d16ec6d36!2sVictoria%2C%20San%20Juan%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1711798838946!5m2!1sen!2sph" 
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </p>
+            </div>
+          </div>
+        </div>
+<br>
+        <div class="terms-container">
+
+          <div class="terms">
+            <h4>TERMS & CONDITION</h4>
+            <div class="inside-container">
+              <p>By becoming a member of our gym fitness center, individuals commit to upholding our terms and conditions, fostering a positive and inclusive community atmosphere. These conditions encompass adherence to established gym etiquette, including wiping down equipment after use and refraining from disruptive behavior. 
+                Members are expected to treat staff and fellow gym-goers with respect and courtesy at all times. Furthermore, individuals are responsible for the safe and proper use of equipment, following any instructions provided by staff or signage. Personal belongings must be secured appropriately, and members are 
+                encouraged to familiarize themselves with health and safety guidelines outlined by the facility for their well-being and that of others.</p>
+            </div>
+            
+          </div>
+        </div>
+<hr>
+        </main>
+<br><br<br>
+        <footer style="background-color: #ffffff;">
+          <div class="footercontainer">
+            <div class="socialIcons">
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=61559235835737&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+              <a target="_blank" href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fpremium_strength%3Figsh%3DeGhxOG1lZjk2Y3pl&h=AT1hmJ7flej155Vc-GyEctfx5K9BSfLqZFiV64NdYjZq_s0KfjY_6oEuvDN6xSykRdlP6oDcVW41lqnBT333Zsj0X3GA877mGjRmXSKmeG-RwXEW8qhomKbejKz3pHQfsPrgrA"><i class="fa-brands fa-instagram"></i></a>
+              <a target="_blank" href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2F%40PremiumStrength-officialyt&h=AT1hmJ7flej155Vc-GyEctfx5K9BSfLqZFiV64NdYjZq_s0KfjY_6oEuvDN6xSykRdlP6oDcVW41lqnBT333Zsj0X3GA877mGjRmXSKmeG-RwXEW8qhomKbejKz3pHQfsPrgrA"><i class="fa-brands fa-youtube"></i></a>
+              <a target="_blank" href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2F%40premiumstrength%3F_t%3D8lyzk5zyIMb%26_r%3D1&h=AT1hmJ7flej155Vc-GyEctfx5K9BSfLqZFiV64NdYjZq_s0KfjY_6oEuvDN6xSykRdlP6oDcVW41lqnBT333Zsj0X3GA877mGjRmXSKmeG-RwXEW8qhomKbejKz3pHQfsPrgrA"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class="privacy">
+              <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <div class="footerBottom">
+              <p>Copyright &copy; 2024 by Premium Strength <br>  All rights reserved<p>
+            </div>
+            </div>
+          </div>
+        </footer>
+     
+</body>
+</html>

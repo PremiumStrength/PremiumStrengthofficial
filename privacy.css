@@ -1,0 +1,69 @@
+.logo {
+    height: 99px;
+    width: 177px;
+}
+.navbar {
+    background-color:rgb(133, 8, 8);  
+    box-shadow: 1px 3px 2px;
+}
+.nav-item {
+    font-size: 18px;
+    margin: 13px;
+    font-family:sans-serif;
+    text-align: center;
+}
+.nav-item a:hover{
+    background-color: rgb(144, 187, 243);
+}
+.nav-item a{
+    border-radius: 30px;
+    transition: 0.4s;
+    margin: 10px;
+}
+.nav-link {
+    color: white;
+}
+.navbar-toggler {
+    background-color: white;
+}
+/* .pri-container h1 {
+    margin-top: 150px;
+}
+.pri-container p {
+    text-align: justify;
+    border: 5px solid black;
+    display: flex;
+} */
+.container p{
+    margin: 10%;
+    justify-content: justify;
+    text-align: justify;
+}
+.container h1{
+    margin-bottom: -10px;
+    margin: 10%;
+}
+.box {
+    align-items: center;
+    margin: 20%;
+    margin-top: 200px;
+    border: 2px solid black;
+    height: 50%;
+    width: 60%;
+    border-radius: 30px;
+
+}
+.grid-item {
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    border: 5px solid black;
+}
+.grid-item{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.footercontainer{
+    margin-top: 0px;
+}
