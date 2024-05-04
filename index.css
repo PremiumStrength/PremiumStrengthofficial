@@ -29,6 +29,9 @@
 .carousel-inner {
     margin-top: 120px;
 }
+#hero-carousel{
+    width: 100vw;
+}
 .carousel-slide {
     width: 100vw;
 }
